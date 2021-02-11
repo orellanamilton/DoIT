@@ -1,0 +1,13 @@
+form input {
+   border: none;
+   background: transparent;
+   outline: none;
+   font-family: 'Open Sans', sans-serif;
+   padding: 10px;
+ }
+ 
+ @media (max-width: 768px)  {
+   form input {
+     font-size: .75rem;
+   }
+ }

@@ -1,0 +1,64 @@
+
+.notComplete {
+    margin: 10px;
+    background: rgba( 0, 0, 0, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba(145, 143, 143, 0.37);
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.complete {
+    margin: 10px;
+    background: rgba( 0, 0, 0, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba( 145, 143, 143, 0.37 );
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px;
+    padding: 10px
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #316c72;
+    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+}
+
+h2 {
+    color: rgb(65,124,93);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
+
+
+
+@media (max-width: 650px)  {
+    h1 {
+        font-size: .75rem;
+        letter-spacing: .1rem;
+    }
+
+    h2 {
+        font-size: 0.75rem;
+    }
+    h3 {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 840px) {
+    h1 {
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+    }
+}

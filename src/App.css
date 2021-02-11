@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.vertical-center {
+  min-height: 95%; 
+  min-height: 95vh;
+
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  margin: 0 15px;
+  font-size: .75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
